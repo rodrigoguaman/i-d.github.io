@@ -6,7 +6,8 @@ El contenido base fue desglosado a partir del sílabo adjunto por el usuario. El
 
 ## Estructura actual
 
-- `platform/index.html`: inicio con acceso a los capítulos.
+- `index.html`: portada principal del HUB.
+- `platform/index.html`: ruta alternativa a la portada.
 - `platform/pages/`: páginas separadas por capítulo.
 - `content/chapters.js`: datos estructurados con subtemas según la numeración del sílabo.
 - `docs/`: versión documental de cada capítulo.
@@ -21,7 +22,9 @@ El contenido base fue desglosado a partir del sílabo adjunto por el usuario. El
 
 ## Uso
 
-Abre `platform/index.html` en el navegador. La plataforma funciona sin servidor.
+Abre `index.html` en el navegador. La plataforma funciona sin servidor.
+
+Para publicarla en GitHub Pages, sube el contenido completo a un repositorio y, en **Settings → Pages**, selecciona **Deploy from a branch**, la rama deseada y la carpeta **/(root)**. La URL publicada depende del nombre del usuario u organización y del repositorio.
 
 ## Resultados de aprendizaje integrados
 
